@@ -235,6 +235,19 @@ a {
   font-size: 200%;
 }
 
+.sessions-list {
+  background: linear-gradient( rgba(0, 0, 0, 0.005), rgba(0, 0, 0, 0.005) ), url('/images/background2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.sessions-list h2 {
+  color: black;
+  font-weight:600;
+}
+
 /* form css */
 
 .form-wb {
