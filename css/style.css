@@ -33,9 +33,13 @@ a {
 .navbar img {
   width: 5%;
   min-width: 100px;
-
 }
 
+@media (max-width: 768px) {
+  .navbar img {
+    margin-left: 10%
+  }
+}
 
 /* banner css */
 .banner {
@@ -89,10 +93,23 @@ a {
   text-shadow: 4px 4px 4px #aaa;
 }
 
+@media (max-width: 768px) {
+  .container-banner h1 {
+    margin-left: -30%;
+  }
+}
+
 .container-banner h2 {
   font-family:'Lora', serif;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .container-banner h2 {
+    margin-left: -30%;
+  }
+}
+
 .container-banner h5 {
   font-family:'Lora', serif;
   text-align:center;
@@ -151,6 +168,12 @@ a {
   line-height: 175%;
 }
 
+@media (max-width: 768px) {
+  .text-presentation {
+    width: 95%;
+  }
+}
+
 .presentation-img p {
   color: #d25099;
 }
@@ -161,6 +184,12 @@ a {
   border-radius: 50%;
   object-fit: cover;
   /* max-height: 1200px; */
+}
+
+@media (max-width: 768px) {
+  #quiensoy .description {
+    flex-direction: column ;
+  }
 }
 
 .carousel-item img {
