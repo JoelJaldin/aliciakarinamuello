@@ -25,6 +25,12 @@ a {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  #inicio .navbar {
+    background-color: white;
+  }
+}
+
 .navbar-nav a {
   font-size: larger;
   font-family: 'Lora', serif;
@@ -96,6 +102,7 @@ a {
 @media (max-width: 768px) {
   .container-banner h1 {
     margin-left: -30%;
+    margin-top: 15%;
   }
 }
 
@@ -228,6 +235,12 @@ a {
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+}
+
 .cards h4 {
   font-family: 'Lora', serif;
   font-weight: bolder;
@@ -253,6 +266,12 @@ a {
   padding: 7%;
   height: 100%;
 }
+
+/* @media (max-width: 768px) {
+  .card-background {
+    background-color: #e8ced3;
+  }
+} */
 
 .card h4 {
   padding: 25px 0px 0px;
