@@ -165,6 +165,12 @@ a {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .presentation h1 {
+    text-align: center;
+  }
+}
+
 .presentation p {
   font-family: 'Lora', serif;
   line-height: 225%;
@@ -437,6 +443,17 @@ color: white;
   z-index:100;
   padding: 6px;
 }
+
+
+@media (max-width: 768px) {
+  .whatsapp-icon {
+    width: 45px;
+  height: 40px;
+  bottom: 45px;
+  right: 80px
+  }
+}
+;
 
 /* footer css */
 
