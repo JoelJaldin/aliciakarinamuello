@@ -447,9 +447,6 @@ color: white;
 
 @media (max-width: 768px) {
   .whatsapp-icon {
-    width: 45px;
-  height: 40px;
-  bottom: 45px;
   right: 80px
   }
 }
