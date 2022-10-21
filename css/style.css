@@ -285,11 +285,12 @@ a {
   height: 100%;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .card-background {
-    background-color: #e8ced3;
+    width: 100%;
   }
-} */
+}
+
 
 .card h4 {
   padding: 25px 0px 0px;
